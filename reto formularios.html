@@ -1,0 +1,31 @@
+<h1>Formularios en HTML</h1>
+<h2>Datos Personales</h2>
+<form>
+    <label for="name">Name:</label>
+    <input id="name" name="name" required placeholder="name"/><br/>
+    <label for="email">Email:</label>
+    <input name="email" type="email" required placeholder="anonymus@gmail.com"/><br />
+    <label for="phone">Phone Number</label>
+    <input type="phone" placeholder="001 2543 586"/>
+</form>
+
+<h2>Genero</h2>
+<input type="radio" value="Masculino" name="Generos"/>
+<label for="Masculino">Masculino</label>
+<br />
+<input type="radio" value="Femenino" name="Generos"/>
+<label for="Femenino"> Femenino</label><br />
+<input type="radio" value="Otro" name="Generos"/>
+<label for="Otro">Otro</label>
+
+<h2>Preferencias</h2>
+<input type="checkbox" value="Music" name="Preferencias"/>
+<label for="Music">Music</label><br />
+<input type="checkbox" value="Sports" name="Preferencias"/>
+<label for="Sports">Sports</label><br/>
+<input type="checkbox" value="Reading" name="Preferencias"/>
+<label for="Reading">Reading</label>
+
+<h2>Comentarios</h2>
+<textarea cols="40" rows="5" placeholder="opiniones"></textarea><br />
+<input type='submit' value='Enviar'>
